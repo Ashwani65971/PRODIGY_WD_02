@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="icons/css/boxicons.min.css">
+    <title> Aesthetic Stopwatch</title>
+</head>
+<body class="mainBody">
+    <div class="container">
+        <div class="top-header">
+            <h1>Ashwani.</h1>
+            <div class="select-mode">
+                <i class='bx bx-sun' ></i>
+                <i class='bx bx-moon' ></i>
+            </div>
+        </div>
+        <div class="stopwatch-section">
+            <div class="stopwatch-text">
+                <h2><span style="color:red;">Y</span>our <span style="color:red">U</span>ltimate <span style="color:red">S</span>topwatch <span style="color:red">C</span>ompanion</h2>
+            </div>
+            <div class="stopwatch-section-data">
+                <h1 class="stopWatch-text">00:00:00</h1>
+                <div class="buttons">
+                    <span class="reset" onclick="reset()">Reset<i class='bx bx-reset'></i></span>
+                    <span class="start" onclick="start()">Start<i class='bx bx-play-circle' ></i></span>
+                    <span class="pause" onclick="pause()">Pause<i class='bx bx-pause-circle' style="color: black;" ></i></i></span>
+                </div>
+                <button class="laps" onclick="addLaps()">Add Laps</button>
+            </div>
+            <div class="strap"> 
+            </div>
+            <div class="addlaps-box">
+                <div class="addlaps-box-data">
+                <h3>Add Laps</h3>
+                <ul>
+                </ul>
+                <button class="delete-lap" onclick="deleteLap()">Delete Laps<i class='bx bxs-minus-circle' ></i></button>
+                </div>  
+            </div>
+
+            <div class="mini-laps-box">
+                <h4>Add Laps</h4>
+                <ul>
+                </ul>
+                <button class="delete-mini-lap" onclick="deleteminiLap()">Delete laps <i class='bx bxs-minus-circle' ></i></button>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
