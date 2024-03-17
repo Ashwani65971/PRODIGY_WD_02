@@ -508,11 +508,11 @@ body.active .stopwatch-section > .addlaps-box h3
     {
         display: block !important;
         position: absolute !important;
-        bottom:30px !important;
+        bottom:70px !important;
         left: 50% !important;
         transform: translateX(-50%) scale(0.9) !important;
         width: 250px !important;
-        height: 240px !important;
+        height: 200px !important;
         background-color: white !important;
         z-index: 50 !important;
         border-radius: 10px;
@@ -576,7 +576,7 @@ body.active .stopwatch-section > .addlaps-box h3
         border-radius: 5px;
         box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.36);
         padding:4px;
-        bottom:210px;
+        bottom:168px;
         left: 50%;
         transform: translateX(10%);
         display: flex;
